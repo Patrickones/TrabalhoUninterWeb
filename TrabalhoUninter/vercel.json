@@ -1,5 +1,5 @@
 {
     "rewrites": [
-        {"source": "/(.*)", "destination": "/templates/about.html"}
+        {"source": "/(.*)", "destination": "/TrabalhoUninter/templates/about.html"}
     ]
 }
