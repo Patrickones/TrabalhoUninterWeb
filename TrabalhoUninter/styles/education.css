@@ -1,0 +1,59 @@
+.div-education {
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+
+
+.img-education {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-right: 5rem;
+}
+
+.education-title {
+    font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    line-height: 2rem; /* Ajuste a altura da linha conforme necessário */
+    color: var(--primary-color);
+}
+
+.div-button-education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 2rem;
+}
+
+.div2-education {
+    display: flex;
+    
+}
+
+.div-div-education {
+    opacity: 0; /* Inicialmente escondido com opacidade 0 */
+    transform: scale(0.95); /* Inicialmente reduzido */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transições suaves para opacidade e transformação */
+    align-items: center;
+    justify-content: center;
+    width: 450px; /* Defina uma largura fixa */
+    height: 450px; /* Defina uma altura fixa para que fique quadrado */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 1rem; /* Adiciona um pouco de espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding e border no tamanho total */
+}
+
+.div-div-education.active {
+    opacity: 1; /* Opacidade total quando ativo */
+    transform: scale(1); /* Tamanho normal quando ativo */
+    display: block;
+    margin-top: 1rem;
+    border: solid 6px var(--primary-color);
+    border-radius: 10px;
+}

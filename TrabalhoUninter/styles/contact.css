@@ -1,0 +1,62 @@
+.section-contact {
+    display: flex; /* Usa Flexbox para o layout */
+    justify-content: space-around; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 2rem; /* Espaçamento entre os dois divs, ajuste conforme necessário */
+    margin-top: 10rem;
+    
+}
+
+form {
+    width: 80%;
+}
+
+
+.div-contact, .div-contact2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 1rem;
+    border: 1px solid var(--tertiary-color); 
+    border-radius: 8px; 
+    width: 800px;
+    height: 500px;
+    
+}
+
+.div-contact h1 {
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.div-contact p {
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--gray);
+}
+
+.div-contact2 h2 {
+    font-size: 2rem;
+}
+
+.div-contact2 label {
+    font-size: 2rem;
+}
+
+.div-contact2 input {
+    padding: 1rem;
+    width: 100%;
+}
+
+.div-contact3 {
+    margin-top: 2rem;
+}
+
+.div-contact3 textarea {
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box; 
+    resize: none;
+
+}
+

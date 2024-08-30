@@ -1,0 +1,89 @@
+.div-portifolio {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Garantir que o contêiner ocupe a largura total disponível */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
+}
+
+.title-portifolio{
+    font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+    line-height: 5rem; /* Ajuste a altura da linha conforme necessário */
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.img-portifolio {
+    max-width:250px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.lista-portifolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-lista-portifolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%; /* Garantir que o contêiner ocupe a largura total disponível */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
+}
+
+span {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.img2-portifolio {
+    max-width:150px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    object-fit: cover; /* Mantém a imagem proporcional dentro do círculo */
+    cursor: pointer;
+}
+
+.img-portifolio, .img2-portifolio {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Media Query para telas médias e menores */
+@media (max-width: 1580px) {
+    .div-portifolio {
+        margin-top: 2rem;
+       
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .lista-lista-portifolio {
+        margin: 0;
+    }
+
+   
+}
+
+@media (max-width: 480px) {
+    .lista-portifolio {
+        
+        flex-direction: column;
+        
+    }
+
+   
+}
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/TrabalhoUninter/styles/geral.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h2 class="header-container-h2">PRadaelli</h2>
+        </div>
+        <nav class="nav-bar">
+            <ol class="nav-bar-list">
+                <li><a href="/TrabalhoUninter/templates/about.html" class="nav-item">Sobre mim</a></li>
+                <li><a href="/TrabalhoUninter/templates/education.html" class="nav-item">Formação Acadêmica</a></li>
+                <li><a href="/TrabalhoUninter/templates/portifolio.html" class="nav-item">Portifólio</a></li>
+                <li><a href="/TrabalhoUninter/templates/contact.html" class="nav-item">Contato</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <section class="section-contact">
+        <div class="div-contact">
+            <h1>Entre em contato</h1>
+            <p>Endereço de correspondencia:</p>
+            <p> 40 Rua Ernesto Gregoire, <br>
+                Bairro Centro <br>
+                Telefone: 51-995589959
+            </p>
+        </div>
+        <div class="div-contact2">
+            <h2>Preencha o formularia abaixo:</h2>
+            <br>
+            <form action="http://127.0.0.1:5500/TrabalhoUninter/templates/contact.html" id="contact-form" method="post">
+                <div class="div-contact3">
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="texto" id="nome" name="nome_usuario" placeholder="Insira seu Nome">
+                </div>
+                <div class="div-contact3">
+                    <label for="email">E-mail:</label>
+                    <br>
+                    <input type="email" id="email" name="email_usuario" placeholder="Insira seu E-mail">
+                </div>
+                <div class="div-contact3">
+                    <label for="texto">Texto:</label>
+                    <br>
+                    <textarea id="texto" name="texto_usuario" maxlength="200"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script src="/TrabalhoUninter/scripts/navbar.js"></script>
+    <script src="/TrabalhoUninter/scripts/contact.js"></script>
+</body>
+</html>

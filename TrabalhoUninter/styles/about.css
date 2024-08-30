@@ -1,0 +1,169 @@
+.section-about {
+    padding: 2rem 18rem; /* Ajuste o padding conforme necessário */
+    display: flex;
+}
+
+.div-imagem{
+    display: flex;
+    
+}
+
+
+.div-1 {
+    width: 75%; /* Ajuste para 75% em telas maiores */
+}
+
+.div {
+    padding: 1.5rem 1.5rem 1.5rem 0; /* Ajuste o padding conforme necessário */
+}
+
+.div-h1 {
+    font-size: 4rem; /* Ajuste o tamanho da fonte conforme necessário */
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    line-height: 5rem; /* Ajuste a altura da linha conforme necessário */
+    color: var(--primary-color);
+}
+
+.div-p {
+    margin-right: 6rem; /* Ajuste a margem direita conforme necessário */
+    line-height: 2rem; /* Ajuste a altura da linha conforme necessário */
+}
+
+img {
+    border-radius: 2rem; /* Ajuste o raio da borda conforme necessário */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+button {
+    padding: 0.5rem 2rem;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 5px;
+    border: none; /* Corrigido o border para nenhum, se necessário */
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+/* Media Query para telas médias e menores */
+@media (max-width: 1580px) {
+    .section-about {
+        padding: 2rem 4rem; /* Ajuste o padding em telas médias */
+        height: 100%;
+    }
+
+    .div-1 {
+        width: 100%; /* Ajusta para 100% em telas médias e menores */
+    }
+
+    .div {
+        padding: 1rem; /* Ajuste o padding para telas menores */
+    }
+
+    .div-h1 {
+        font-size: 3rem; /* Ajusta o tamanho da fonte */
+        line-height: 3.5rem; /* Ajusta a altura da linha */
+    }
+
+    .div-p {
+        margin-right: 2rem; /* Ajuste a margem direita para telas menores */
+    }
+
+    button {
+        padding: 0.5rem 1.5rem; /* Ajuste o padding do botão */
+    }
+}
+
+/* Media Query para telas médias e menores */
+@media (max-width: 1200px) {
+    .section-about {
+        padding: 2rem 4rem; /* Ajuste o padding em telas médias */
+    }
+
+    .div-1 {
+        width: 100%; /* Ajusta para 100% em telas médias e menores */
+    }
+
+    .div {
+        padding: 1rem; /* Ajuste o padding para telas menores */
+    }
+
+    .div-h1 {
+        font-size: 3rem; /* Ajusta o tamanho da fonte */
+        line-height: 3.5rem; /* Ajusta a altura da linha */
+    }
+
+    .div-p {
+        margin-right: 2rem; /* Ajuste a margem direita para telas menores */
+    }
+
+    button {
+        padding: 0.5rem 1.5rem; /* Ajuste o padding do botão */
+    }
+}
+
+/* Media Query para dispositivos móveis */
+@media (max-width: 768px) {
+    .section-about {
+        padding: 1rem; /* Ajuste o padding para dispositivos móveis */
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: center; /* Centraliza os elementos horizontalmente */
+    }
+
+    .div-1 {
+        width: 100%; /* Ajusta para 100% em dispositivos móveis */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .div {
+        padding: 1rem; /* Ajuste o padding para telas menores */
+    }
+
+    .div-h1 {
+        font-size: 2rem; /* Ajusta o tamanho da fonte */
+        line-height: 2.5rem; /* Ajusta a altura da linha */
+    }
+
+    .div-p {
+        margin-right: 0; /* Remove a margem direita em dispositivos móveis */
+        line-height: 1.5rem; /* Ajusta a altura da linha */
+    }
+
+    button {
+        padding: 0.5rem 1rem; /* Ajuste o padding do botão */
+    }
+}
+
+/* Media Query para dispositivos muito pequenos */
+@media (max-width: 480px) {
+
+    .section-about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-imagem{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Ajusta o tamanho da fonte */
+        line-height: 2rem; /* Ajusta a altura da linha */
+    }
+
+    .div-p {
+        line-height: 1.2rem; /* Ajusta a altura da linha */
+    }
+
+    button {
+        padding: 0.5rem 0.8rem; /* Ajuste o padding do botão */
+    }
+}
